@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <circle cx="100" cy="100" r="100" fill="#1E3F5A"/>
+  <!-- Vücut -->
+  <ellipse cx="100" cy="160" rx="48" ry="30" fill="#0B1C2E"/>
+  <rect x="62" y="105" width="76" height="65" rx="20" fill="#152D45"/>
+  <!-- Baş -->
+  <circle cx="100" cy="80" r="36" fill="#E8C49A"/>
+  <!-- Saç -->
+  <path d="M64 78 Q68 42 100 38 Q132 42 136 78 Q130 55 100 52 Q70 55 64 78Z" fill="#4A3728"/>
+  <path d="M64 78 Q60 95 65 110 Q63 95 66 82Z" fill="#4A3728"/>
+  <path d="M136 78 Q140 95 135 110 Q137 95 134 82Z" fill="#4A3728"/>
+  <!-- Yüz detayları -->
+  <ellipse cx="88" cy="82" rx="5" ry="6" fill="#2D1F1A"/>
+  <ellipse cx="112" cy="82" rx="5" ry="6" fill="#2D1F1A"/>
+  <path d="M90 96 Q100 104 110 96" stroke="#B87F6A" stroke-width="2" fill="none" stroke-linecap="round"/>
+  <!-- Kıyafet / Toka -->
+  <rect x="85" y="118" width="30" height="4" rx="2" fill="#C9A020"/>
+</svg>

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Dinamik başlık ve açıklama blog.js tarafından güncellenir -->
+  <title>Blog — Ersa Mimarlık</title>
+  <meta name="description" content="Ersa Mimarlık blog makalesi.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+      <img src="images/logo-nav.png" alt="Ersa Mimarlık">
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <div id="wa-placeholder"></div>
+  <a class="back-to-top" id="backToTop" aria-label="Yukarı Dön"><i class="fas fa-chevron-up"></i></a>
+  <div id="header-placeholder"></div>
+
+  <!-- Dinamik sayfa başlığı -->
+  <div class="page-header">
+    <div class="container">
+      <h1 style="font-size:1.2rem" id="articleBreadcrumb">Blog</h1>
+      <nav class="breadcrumb" aria-label="Breadcrumb">
+        <a href="index.html" data-i18n="nav_home"></a>
+        <span><i class="fas fa-chevron-right" style="font-size:.65rem"></i></span>
+        <a href="blog.html" data-i18n="nav_blog"></a>
+        <span><i class="fas fa-chevron-right" style="font-size:.65rem"></i></span>
+        <span id="articleBreadcrumbTitle">...</span>
+      </nav>
+    </div>
+  </div>
+
+  <main>
+    <!-- ================================================
+         BLOG MAKALE İÇERİĞİ
+         blog.js, URL parametresindeki ?id=makale-id'ye göre
+         data/blog/articles.js dosyasından içeriği çeker.
+         ================================================ -->
+    <article class="blog-article">
+      <div class="container">
+
+        <!-- Makale başlığı ve meta bilgileri -->
+        <div class="blog-article-header" id="articleHeader">
+          <!-- blog.js tarafından doldurulur -->
+        </div>
+
+        <!-- MAKALE KAPAK GÖRSELİ
+             Her makale için images/placeholders/blog-[n].svg veya özel görsel kullanılır -->
+        <img class="blog-article-img" id="articleImg" src="" alt="" loading="lazy">
+
+        <!-- Makale içeriği -->
+        <div class="blog-article-content" id="articleContent">
+          <div style="text-align:center;padding:60px">
+            <i class="fas fa-spinner fa-spin" style="font-size:2rem;color:var(--gold)"></i>
+          </div>
+        </div>
+
+        <!-- Alt navigasyon -->
+        <div style="max-width:800px;margin:48px auto 0;padding-top:32px;border-top:1px solid var(--gray-200);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:16px">
+          <a href="blog.html" class="btn btn-outline" data-i18n="btn_all_blog"></a>
+          <div style="display:flex;gap:12px">
+            <a href="iletisim.html" class="btn btn-primary" data-i18n="btn_contact"></a>
+          </div>
+        </div>
+
+      </div>
+    </article>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script src="data/blog/articles.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/lang.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/blog.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      initComponents('blog');
+      initLang();
+      renderBlogArticle();
+      initBlogLangListeners();
+      /* Breadcrumb güncelle */
+      const params  = new URLSearchParams(window.location.search);
+      const id      = params.get('id');
+      const lang    = localStorage.getItem('ersa_lang') || 'tr';
+      const article = typeof BLOG_ARTICLES !== 'undefined'
+        ? BLOG_ARTICLES.find(a => a.id === id) : null;
+      if (article) {
+        const titleEl = document.getElementById('articleBreadcrumbTitle');
+        if (titleEl) titleEl.textContent = article.title[lang] || article.title.tr;
+      }
+    });
+  </script>
+</body>
+</html>

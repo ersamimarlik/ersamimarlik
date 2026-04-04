@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0B1C2E"/>
+      <stop offset="100%" style="stop-color:#1E3F5A"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g4)"/>
+  <!-- Alüminyum profil kesit görünümü -->
+  <rect x="160" y="80" width="220" height="290" rx="3" fill="rgba(180,180,200,0.12)" stroke="#A0A8B8" stroke-width="3"/>
+  <!-- İç profil detayları -->
+  <rect x="180" y="100" width="80" height="120" rx="2" fill="rgba(255,255,255,0.08)" stroke="#8090A0" stroke-width="2"/>
+  <rect x="200" y="120" width="40" height="80" rx="1" fill="rgba(201,160,32,0.15)" stroke="#C9A020" stroke-width="1.5"/>
+  <rect x="280" y="100" width="80" height="120" rx="2" fill="rgba(255,255,255,0.08)" stroke="#8090A0" stroke-width="2"/>
+  <rect x="300" y="120" width="40" height="80" rx="1" fill="rgba(201,160,32,0.15)" stroke="#C9A020" stroke-width="1.5"/>
+  <!-- Conta gösterimi -->
+  <circle cx="180" cy="100" r="8" fill="#C9A020" opacity="0.7"/>
+  <circle cx="360" cy="100" r="8" fill="#C9A020" opacity="0.7"/>
+  <circle cx="180" cy="360" r="8" fill="#C9A020" opacity="0.7"/>
+  <circle cx="360" cy="360" r="8" fill="#C9A020" opacity="0.7"/>
+  <!-- Sağ taraf bilgi -->
+  <text x="560" y="160" text-anchor="middle" fill="#C9A020" font-size="18" font-family="Georgia,serif" opacity="0.9">ALÜMİNYUM</text>
+  <text x="560" y="190" text-anchor="middle" fill="#C9A020" font-size="18" font-family="Georgia,serif" opacity="0.9">DOĞRAMA</text>
+  <line x1="460" y1="205" x2="660" y2="205" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <text x="460" y="235" fill="rgba(255,255,255,0.5)" font-size="12" font-family="Arial,sans-serif">✓ Isı Yalıtımı</text>
+  <text x="460" y="258" fill="rgba(255,255,255,0.5)" font-size="12" font-family="Arial,sans-serif">✓ Ses Yalıtımı</text>
+  <text x="460" y="281" fill="rgba(255,255,255,0.5)" font-size="12" font-family="Arial,sans-serif">✓ Uzun Ömürlü</text>
+  <text x="460" y="304" fill="rgba(255,255,255,0.5)" font-size="12" font-family="Arial,sans-serif">✓ Estetik</text>
+  <text x="400" y="415" text-anchor="middle" fill="#C9A020" font-size="14" font-family="Georgia,serif" opacity="0.9" letter-spacing="4">ALÜMİNYUM DOĞRAMA</text>
+</svg>

@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO Meta Etiketleri -->
+  <title>Ersa Mimarlık — Tasarımdan Uygulamaya Tek Elden Mimarlık | Başakşehir İstanbul</title>
+  <meta name="description" content="Ersa Mimarlık; cam balkon, giyotin cam, alüminyum doğrama, cam cephe sistemleri ile mimari proje ve ruhsat hizmetlerini Başakşehir İstanbul'da sunmaktadır.">
+  <meta name="keywords" content="ersa mimarlık, cam balkon, giyotin cam, alüminyum doğrama, cam cephe, mimari proje, ruhsat, başakşehir, istanbul">
+  <meta name="author" content="Ersa Mimarlık">
+  <meta name="robots" content="index, follow">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Ersa Mimarlık — Tasarımdan Uygulamaya Tek Elden">
+  <meta property="og:description" content="Cam balkon, giyotin cam, alüminyum doğrama ve mimari proje hizmetleri.">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="tr_TR">
+  <!-- Canonical -->
+  <link rel="canonical" href="https://www.ersamimarlik.com/">
+  <!-- Fontlar -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700;900&family=Inter:wght@300;400;500;600&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <!-- Stil -->
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Yapılandırılmış Veri (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Ersa Mimarlık",
+    "description": "Cam balkon, giyotin cam, alüminyum doğrama ve mimari proje hizmetleri",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Kayabaşı Mah. Adnan Menderes Bulvarı, Kuzey Yakası Ofisleri A-2 Blok No:46",
+      "addressLocality": "Başakşehir",
+      "addressRegion": "İstanbul",
+      "addressCountry": "TR"
+    },
+    "telephone": ["+905323517791", "+905398537970"],
+    "email": "ersacephe@gmail.com",
+    "url": "https://www.ersamimarlik.com"
+  }
+  </script>
+</head>
+<body>
+
+  <!-- Sayfa Loader -->
+  <div class="page-loader" id="pageLoader">
+    <div class="loader-inner">
+      <img src="images/logo-nav.png" alt="Ersa Mimarlık">
+      <div class="loader-bar"><div class="loader-fill"></div></div>
+    </div>
+  </div>
+
+  <!-- WhatsApp Yüzen Buton -->
+  <div id="wa-placeholder"></div>
+
+  <!-- Geri Dön Butonu -->
+  <a class="back-to-top" id="backToTop" aria-label="Yukarı Dön"><i class="fas fa-chevron-up"></i></a>
+
+  <!-- Header (components.js tarafından enjekte edilir) -->
+  <div id="header-placeholder"></div>
+
+  <!-- ================================================
+       HERO SLİDER
+       Slayt görsellerini değiştirmek için aşağıdaki
+       <img src="..."> yollarını güncelleyin.
+       ================================================ -->
+  <section class="hero" aria-label="Ana Görsel">
+    <div class="slider-arrows">
+      <button class="slider-arrow" id="sliderPrev" aria-label="Önceki"><i class="fas fa-chevron-left"></i></button>
+      <button class="slider-arrow" id="sliderNext" aria-label="Sonraki"><i class="fas fa-chevron-right"></i></button>
+    </div>
+
+    <!-- SLAYT 1 -->
+    <div class="slide active">
+      <!-- HERO GÖRSELİ 1: images/uygulamalar/ klasöründen değiştirilebilir -->
+      <img class="slide-img" src="images/uygulamalar/dış_cephe1.jpeg" alt="Ersa Mimarlık — Cephe Uygulaması" loading="eager">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <div class="slide-text">
+          <span class="slide-label" data-i18n="hero1_label"></span>
+          <h1 data-i18n="hero1_title"></h1>
+          <p class="slogan" data-i18n="hero1_slogan"></p>
+          <div class="slide-btns">
+            <a href="hizmetler.html" class="btn btn-primary" data-i18n="btn_services"></a>
+            <a href="iletisim.html" class="btn btn-outline-white" data-i18n="btn_contact"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLAYT 2 -->
+    <div class="slide">
+      <!-- HERO GÖRSELİ 2 -->
+      <img class="slide-img" src="images/uygulamalar/dış_cephe2.jpeg" alt="Ersa Mimarlık — Cam Sistemleri" loading="lazy">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <div class="slide-text">
+          <span class="slide-label" data-i18n="hero2_label"></span>
+          <h1 data-i18n="hero2_title"></h1>
+          <p class="slogan" data-i18n="hero2_slogan"></p>
+          <div class="slide-btns">
+            <a href="hizmetler.html" class="btn btn-primary" data-i18n="btn_services"></a>
+            <a href="hakkimizda.html" class="btn btn-outline-white" data-i18n="btn_about"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLAYT 3 -->
+    <div class="slide">
+      <!-- HERO GÖRSELİ 3 -->
+      <img class="slide-img" src="images/uygulamalar/dış_cephe3.jpeg" alt="Ersa Mimarlık — Mimari Projeler" loading="lazy">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <div class="slide-text">
+          <span class="slide-label" data-i18n="hero3_label"></span>
+          <h1 data-i18n="hero3_title"></h1>
+          <p class="slogan" data-i18n="hero3_slogan"></p>
+          <div class="slide-btns">
+            <a href="hizmetler.html" class="btn btn-primary" data-i18n="btn_projects"></a>
+            <a href="iletisim.html" class="btn btn-outline-white" data-i18n="btn_contact"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SLAYT 4 -->
+    <div class="slide">
+      <!-- HERO GÖRSELİ 4 -->
+      <img class="slide-img" src="images/uygulamalar/dış_cephe4.jpeg" alt="Ersa Mimarlık — 30 Yıl Deneyim" loading="lazy">
+      <div class="slide-overlay"></div>
+      <div class="slide-content">
+        <div class="slide-text">
+          <span class="slide-label" data-i18n="hero4_label"></span>
+          <h1 data-i18n="hero4_title"></h1>
+          <p class="slogan" data-i18n="hero4_slogan"></p>
+          <div class="slide-btns">
+            <a href="hakkimizda.html" class="btn btn-primary" data-i18n="btn_about"></a>
+            <a href="iletisim.html" class="btn btn-outline-white" data-i18n="btn_contact"></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Slider Noktaları -->
+    <div class="slider-controls">
+      <button class="slider-dot active" aria-label="Slayt 1"></button>
+      <button class="slider-dot" aria-label="Slayt 2"></button>
+      <button class="slider-dot" aria-label="Slayt 3"></button>
+      <button class="slider-dot" aria-label="Slayt 4"></button>
+    </div>
+
+    <!-- Scroll Göstergesi -->
+    <div class="scroll-indicator">
+      <span>.</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ================================================
+       İSTATİSTİKLER
+       Rakamları değiştirmek için data-target ve
+       data-i18n değerlerini güncelleyin
+       ================================================ -->
+  <div class="stats-bar">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-item fade-in">
+          <span class="stat-number count-up" data-target="30" data-suffix="+" data-i18n="stat1_num"></span>
+          <span class="stat-label" data-i18n="stat1_lbl"></span>
+        </div>
+        <div class="stat-item fade-in delay-1">
+          <span class="stat-number count-up" data-target="500" data-suffix="+" data-i18n="stat2_num"></span>
+          <span class="stat-label" data-i18n="stat2_lbl"></span>
+        </div>
+        <div class="stat-item fade-in delay-2">
+          <span class="stat-number" data-i18n="stat3_num"></span>
+          <span class="stat-label" data-i18n="stat3_lbl"></span>
+        </div>
+        <div class="stat-item fade-in delay-3">
+          <span class="stat-number" data-i18n="stat4_num"></span>
+          <span class="stat-label" data-i18n="stat4_lbl"></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+
+    <!-- ================================================
+         HAKKIMIZDA TANITIM
+         Metin değişikliği için js/lang.js dosyasındaki
+         about_* anahtarlarını güncelleyin
+         ================================================ -->
+    <section class="about-teaser section-padding" aria-label="Hakkımızda">
+      <div class="container">
+        <div class="about-teaser-grid">
+          <!-- HAKKIMIZDA GÖRSELİ: Değiştirmek için aşağıdaki src'yi güncelleyin -->
+          <div class="about-teaser-img fade-in">
+            <img src="images/placeholders/about-img.svg" alt="Ersa Mimarlık — Ofis" loading="lazy">
+            <div class="about-badge">
+              <span class="big-num count-up" data-target="30" data-suffix="+">30+</span>
+              <span class="badge-lbl">Yıl<br>Deneyim</span>
+            </div>
+          </div>
+
+          <div class="about-teaser-content fade-in delay-2">
+            <h2 data-i18n="about_title"></h2>
+            <p class="lead" data-i18n="about_lead"></p>
+            <p data-i18n="about_p1"></p>
+            <p data-i18n="about_p2"></p>
+
+            <div class="features-list">
+              <div class="feature-item"><i class="fas fa-check-circle"></i><span data-i18n="feat1"></span></div>
+              <div class="feature-item"><i class="fas fa-check-circle"></i><span data-i18n="feat2"></span></div>
+              <div class="feature-item"><i class="fas fa-check-circle"></i><span data-i18n="feat3"></span></div>
+              <div class="feature-item"><i class="fas fa-check-circle"></i><span data-i18n="feat4"></span></div>
+              <div class="feature-item"><i class="fas fa-check-circle"></i><span data-i18n="feat5"></span></div>
+              <div class="feature-item"><i class="fas fa-check-circle"></i><span data-i18n="feat6"></span></div>
+            </div>
+
+            <a href="hakkimizda.html" class="btn btn-primary" data-i18n="btn_about"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         HİZMETLER GENEL BAKIŞ
+         Hizmet başlık ve açıklamalarını lang.js içinde güncelleyin
+         ================================================ -->
+    <section class="services-overview section-padding" aria-label="Hizmetlerimiz">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 data-i18n="services_title"></h2>
+          <p data-i18n="services_desc"></p>
+        </div>
+        <div class="services-grid">
+          <div class="service-card fade-in delay-1">
+            <div class="service-icon"><i class="fas fa-drafting-compass"></i></div>
+            <h3 data-i18n="svc1_title"></h3>
+            <p data-i18n="svc1_desc"></p>
+            <div class="service-sub-items">
+              <span class="service-tag" data-i18n="svc_proje_title"></span>
+              <span class="service-tag" data-i18n="svc_3d_title"></span>
+              <span class="service-tag" data-i18n="svc_ruhsat_title"></span>
+            </div>
+          </div>
+          <div class="service-card fade-in delay-2">
+            <div class="service-icon"><i class="fas fa-vector-square"></i></div>
+            <h3 data-i18n="svc2_title"></h3>
+            <p data-i18n="svc2_desc"></p>
+            <div class="service-sub-items">
+              <span class="service-tag" data-i18n="svc_giyotin_title"></span>
+              <span class="service-tag" data-i18n="svc_cambalkon_title"></span>
+              <span class="service-tag" data-i18n="svc_cephe_title"></span>
+            </div>
+          </div>
+          <div class="service-card fade-in delay-3">
+            <div class="service-icon"><i class="fas fa-building"></i></div>
+            <h3 data-i18n="svc3_title"></h3>
+            <p data-i18n="svc3_desc"></p>
+            <div class="service-sub-items">
+              <span class="service-tag" data-i18n="svc_ofis_title"></span>
+              <span class="service-tag" data-i18n="svc_kisbahce_title"></span>
+              <span class="service-tag" data-i18n="svc_kapipencere_title"></span>
+            </div>
+          </div>
+        </div>
+        <div style="text-align:center; margin-top:44px">
+          <a href="hizmetler.html" class="btn btn-outline" data-i18n="btn_services"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         ÖRNEK PROJELER GALERİSİ
+         Görselleri images/uygulamalar/ klasöründen değiştirin
+         ================================================ -->
+    <section class="projects-section section-padding" aria-label="Projeler">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 data-i18n="projects_title"></h2>
+          <p data-i18n="projects_desc"></p>
+        </div>
+        <div class="projects-grid">
+          <!-- PROJE GÖRSELLERİ: src değerlerini değiştirebilirsiniz -->
+          <div class="project-item fade-in">
+            <img src="images/uygulamalar/a.jpeg" alt="Proje 1" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-info"><h4>Cam Cephe</h4><span>İstanbul</span></div>
+            </div>
+          </div>
+          <div class="project-item fade-in delay-1">
+            <img src="images/uygulamalar/b.jpeg" alt="Proje 2" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-info"><h4>Cam Balkon</h4><span>Başakşehir</span></div>
+            </div>
+          </div>
+          <div class="project-item fade-in delay-2">
+            <img src="images/uygulamalar/c.jpeg" alt="Proje 3" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-info"><h4>Alüminyum Doğrama</h4><span>İstanbul</span></div>
+            </div>
+          </div>
+          <div class="project-item fade-in delay-3">
+            <img src="images/uygulamalar/d.jpeg" alt="Proje 4" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-info"><h4>Giyotin Cam</h4><span>Esenyurt</span></div>
+            </div>
+          </div>
+          <div class="project-item fade-in delay-4">
+            <img src="images/uygulamalar/e.jpeg" alt="Proje 5" loading="lazy">
+            <div class="project-overlay">
+              <div class="project-info"><h4>Ofis Bölme</h4><span>İkitelli</span></div>
+            </div>
+          </div>
+        </div>
+        <div class="projects-cta fade-in">
+          <a href="hizmetler.html" class="btn btn-outline" style="border-color:var(--gold);color:var(--gold)" data-i18n="proj_all"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         YOUTUBE VİDEO
+         Video ID'yi js/video.js içinde değiştirebilirsiniz
+         ================================================ -->
+    <section class="video-section section-padding" aria-label="Tanıtım Videosu">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 data-i18n="video_title"></h2>
+          <p data-i18n="video_desc"></p>
+        </div>
+        <div class="video-container fade-in">
+          <!-- YT videosu js/video.js tarafından buraya eklenir -->
+          <div id="ytWrapper" style="width:100%;aspect-ratio:16/9;background:var(--navy);border-radius:var(--radius-lg);display:flex;align-items:center;justify-content:center;">
+            <i class="fab fa-youtube" style="font-size:4rem;color:var(--gold);opacity:0.5"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================
+         BLOG ÖNİZLEME
+         Makaleler data/blog/articles.js dosyasından gelir
+         ================================================ -->
+    <section class="blog-preview section-padding bg-off-white" aria-label="Blog">
+      <div class="container">
+        <div class="section-header fade-in">
+          <h2 data-i18n="blog_title"></h2>
+          <p data-i18n="blog_desc"></p>
+        </div>
+        <div class="blog-grid" id="blogPreviewContainer">
+          <!-- blog.js tarafından doldurulur -->
+        </div>
+        <div style="text-align:center;margin-top:44px" class="fade-in">
+          <a href="blog.html" class="btn btn-outline" data-i18n="btn_all_blog"></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-section" aria-label="İletişim CTA">
+      <div class="container">
+        <div class="cta-content fade-in">
+          <h2 data-i18n="cta_title"></h2>
+          <p data-i18n="cta_desc"></p>
+          <div class="cta-btns">
+            <a href="tel:+905323517791" class="btn btn-primary"><i class="fas fa-phone"></i> 0532 351 77 91</a>
+            <a href="iletisim.html" class="btn btn-outline-white" data-i18n="btn_contact"></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer (components.js tarafından enjekte edilir) -->
+  <div id="footer-placeholder"></div>
+
+  <!-- Scripts -->
+  <script src="data/blog/articles.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/lang.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/slider.js"></script>
+  <script src="js/video.js"></script>
+  <script src="js/blog.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      initComponents('home');
+      initLang();
+      renderBlogPreview('blogPreviewContainer');
+      initBlogLangListeners();
+    });
+  </script>
+</body>
+</html>

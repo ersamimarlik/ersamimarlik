@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="500" viewBox="0 0 500 500">
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#C9A020" stroke-width="0.5" opacity="0.4"/>
+    </pattern>
+    <pattern id="grid2" width="200" height="200" patternUnits="userSpaceOnUse">
+      <path d="M 200 0 L 0 0 0 200" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+    </pattern>
+  </defs>
+  <rect width="500" height="500" fill="url(#grid)"/>
+  <rect width="500" height="500" fill="url(#grid2)"/>
+  <!-- Bina şeması -->
+  <rect x="80" y="120" width="160" height="260" fill="none" stroke="#C9A020" stroke-width="1.5" opacity="0.6"/>
+  <rect x="100" y="140" width="50" height="70" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <rect x="170" y="140" width="50" height="70" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <rect x="100" y="230" width="50" height="70" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <rect x="170" y="230" width="50" height="70" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <rect x="120" y="320" width="80" height="60" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <!-- Ölçü çizgileri -->
+  <line x1="70" y1="120" x2="70" y2="380" stroke="#C9A020" stroke-width="0.8" opacity="0.5"/>
+  <line x1="65" y1="120" x2="75" y2="120" stroke="#C9A020" stroke-width="0.8" opacity="0.5"/>
+  <line x1="65" y1="380" x2="75" y2="380" stroke="#C9A020" stroke-width="0.8" opacity="0.5"/>
+  <line x1="80" y1="390" x2="240" y2="390" stroke="#C9A020" stroke-width="0.8" opacity="0.5"/>
+  <line x1="80" y1="385" x2="80" y2="395" stroke="#C9A020" stroke-width="0.8" opacity="0.5"/>
+  <line x1="240" y1="385" x2="240" y2="395" stroke="#C9A020" stroke-width="0.8" opacity="0.5"/>
+  <!-- Sağ taraf -->
+  <rect x="290" y="180" width="130" height="200" fill="none" stroke="#C9A020" stroke-width="1.5" opacity="0.5"/>
+  <rect x="310" y="200" width="40" height="50" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.4"/>
+  <rect x="360" y="200" width="40" height="50" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.4"/>
+  <rect x="310" y="270" width="40" height="50" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.4"/>
+  <rect x="360" y="270" width="40" height="50" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.4"/>
+  <rect x="330" y="340" width="50" height="40" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.4"/>
+  <!-- Pusula -->
+  <circle cx="440" cy="80" r="20" fill="none" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <line x1="440" y1="60" x2="440" y2="100" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <line x1="420" y1="80" x2="460" y2="80" stroke="#C9A020" stroke-width="1" opacity="0.5"/>
+  <text x="440" y="55" text-anchor="middle" fill="#C9A020" font-size="8" opacity="0.6">N</text>
+</svg>

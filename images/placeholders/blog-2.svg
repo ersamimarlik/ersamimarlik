@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E3F5A"/>
+      <stop offset="100%" style="stop-color:#0B1C2E"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#g2)"/>
+  <!-- Giyotin cam illüstrasyonu -->
+  <rect x="200" y="60" width="400" height="320" rx="4" fill="rgba(201,160,32,0.05)" stroke="#C9A020" stroke-width="2"/>
+  <!-- Dikey paneller -->
+  <rect x="220" y="80" width="80" height="260" fill="rgba(255,255,255,0.1)" stroke="#C9A020" stroke-width="1.5"/>
+  <rect x="310" y="80" width="80" height="260" fill="rgba(255,255,255,0.07)" stroke="#C9A020" stroke-width="1.5"/>
+  <rect x="400" y="80" width="80" height="260" fill="rgba(255,255,255,0.1)" stroke="#C9A020" stroke-width="1.5"/>
+  <rect x="490" y="80" width="80" height="260" fill="rgba(255,255,255,0.07)" stroke="#C9A020" stroke-width="1.5"/>
+  <!-- Yukarı kayma oku -->
+  <line x1="260" y1="110" x2="260" y2="70" stroke="#C9A020" stroke-width="2" opacity="0.7"/>
+  <polygon points="255,75 260,60 265,75" fill="#C9A020" opacity="0.7"/>
+  <line x1="350" y1="110" x2="350" y2="70" stroke="#C9A020" stroke-width="2" opacity="0.7"/>
+  <polygon points="345,75 350,60 355,75" fill="#C9A020" opacity="0.7"/>
+  <!-- Ray altında -->
+  <rect x="200" y="346" width="400" height="12" fill="#C9A020" opacity="0.4" rx="2"/>
+  <text x="400" y="410" text-anchor="middle" fill="#C9A020" font-size="14" font-family="Georgia,serif" opacity="0.9" letter-spacing="4">GİYOTİN CAM SİSTEMİ</text>
+</svg>
